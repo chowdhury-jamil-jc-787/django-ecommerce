@@ -7,9 +7,6 @@
     "routes": [
         {
             "src": "/static/(.*)",
-            "headers": {
-                "cache-control": "max-age=31536000"
-            },
             "dest": "/static/$1"
         },
         {
